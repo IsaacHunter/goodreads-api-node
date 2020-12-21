@@ -57,6 +57,7 @@ const Goodreads = function(credentials, callbackURL) {
   function _setOAuthToken(token) {
     OAUTH_TOKEN = token.OAUTH_TOKEN;
     OAUTH_TOKEN_SECRET = token.OAUTH_TOKEN_SECRET;
+    OAUTHENTICATED = true;
   };
 
   /**
